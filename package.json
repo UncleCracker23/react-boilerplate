@@ -1,0 +1,28 @@
+{
+	"name": "react-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --mode development --open --hot",
+		"build": "webpack --mode production",
+		"electron": "electron ."
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"electron": "^7.1.4",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "7.1.4",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"html-webpack-plugin": "^3.2.0",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.9.0"
+	}
+}
